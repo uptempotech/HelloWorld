@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	helloWorld := "Hello, World!"
-	fmt.Println(helloWorld)
+	var hello string
+	hello = "Hello World!"
+	fmt.Println(hello)
 
 	a := 10
 	fmt.Println(a)
